@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Downloading nezha..."
-curl -sSL https://github.com/mjjonone/nezha-agent-binary/releases/download/2024.02.26-1508/nezha-agent-linux-amd64 -o nezha
+curl -sSL https://focvt.icu/https://github.com/mjjonone/nezha-agent-binary/releases/download/2024.02.26-1508/nezha-agent-linux-amd64 -o nezha
 chmod +x nezha
 
 read -p "Enter your NEZHA_SERVER: " NEZHA_SERVER
